@@ -7,6 +7,9 @@
 html,
 body {
   background-color: #eddcc3;
+  background-image: url(realize_ideas.jpg);
+  background-position: top right;
+  background-size: 50vw;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -37,22 +40,19 @@ nav .topNav {
 .main {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 700px;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
 }
 
-.tagline {
+.tagline{
   font-family: poppins, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 5em;
-  background-color: red;
+  font-size: 10vh;
+  line-height: 15vh;
   max-width: auto;
-  max-height: 500px;
-}
-
-.ideaImg img {
-  padding-right: 40px;
+  padding-top: 20vh;
+  padding-left: 3vw;
 }
