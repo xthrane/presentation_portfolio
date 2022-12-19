@@ -1,0 +1,58 @@
+* {
+  color: #1e1e24;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #eddcc3;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav .topNav {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.topNav a {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.tagline {
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5em;
+  background-color: red;
+  max-width: auto;
+  max-height: 500px;
+}
+
+.ideaImg img {
+  padding-right: 40px;
+}
