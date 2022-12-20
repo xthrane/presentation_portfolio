@@ -18,16 +18,14 @@ body {
 }
 nav {
   height: 80px;
-  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 nav .topNav {
   display: flex;
-  justify-content: space-between;
-  width: 400px;
   padding-top: 10px;
+  gap: 60px;
 }
 
 .topNav a {
@@ -45,26 +43,44 @@ nav .topNav {
   justify-content: space-between;
 }
 
-.tagline{
+.tagline {
   font-family: poppins, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 9vh;
+  font-size: 5.5vw;
   line-height: 15vh;
   max-width: auto;
   padding-top: 20vh;
   padding-left: 4vw;
 }
 
-.projects {
+.projects-container {
   background-color: #fffff0;
   height: 100%;
   margin-top: 250px;
   display: flex;
-  justify-content: space-around;
-  padding: 50px 50px 0 50px;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 50px 0 50px;
+}
+
+.headers {
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4em;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 120px;
+  padding-top: 40px;
 }
 
 .prs {
-background-color: white;
+  background-color: white;
+  width: 400px;
+  height: 400px;
 }
