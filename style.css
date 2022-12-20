@@ -7,18 +7,25 @@
 p {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
+  font-size: 1em;
 }
 
 .about-container {
   display: flex;
-  padding: 2vw 0 2vw 2vw;
-  justify-content: space-around;
-  background-color: whitesmoke;
-  height: auto;
+  padding: 2vw 4vw 0 4vw;
+  justify-content: space-between;
+  height: 42vw;
+  background-color: #eddcc3;
+}
+
+.portrait {
+  width: 36vw;
+  height: 36vw;
 }
 
 .text-container h1 {
   font-family: proxima-nova, sans-serif;
+  font-size: 4em;
   font-weight: 700;
   text-align: center;
 }
@@ -29,10 +36,10 @@ p {
 
 html,
 body {
-  background-color: #eddcc3;
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #eddcc3;
 }
 nav {
   height: 100px;
@@ -56,7 +63,6 @@ nav .topNav {
 .hero-container {
   background-color: #eddcc3;
   display: flex;
-  height: auto;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -73,7 +79,7 @@ nav .topNav {
   font-style: normal;
   font-size: 5vw;
   line-height: 10vw;
-  margin: 15vh 0 80px 4vw;
+  margin: 10vw 0 4vw 4vw;
 }
 
 .projects-container {
