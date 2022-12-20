@@ -7,15 +7,18 @@
 p {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .about-container {
   display: flex;
-  padding: 2vw 4vw 0 4vw;
   justify-content: space-between;
-  height: 42vw;
-  background-color: #eddcc3;
+}
+
+li {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 .portrait {
@@ -27,7 +30,6 @@ p {
   font-family: proxima-nova, sans-serif;
   font-size: 4em;
   font-weight: 700;
-  text-align: center;
 }
 
 .text-container {
@@ -110,4 +112,10 @@ nav .topNav {
   background-color: white;
   width: 15vw;
   height: 15vw;
+}
+
+.seeMore {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
 }
