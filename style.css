@@ -24,10 +24,10 @@ nav {
 }
 
 nav .topNav {
-  align-self: center;
   display: flex;
   justify-content: space-between;
   width: 400px;
+  padding-top: 10px;
 }
 
 .topNav a {
@@ -43,16 +43,28 @@ nav .topNav {
   height: 700px;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .tagline{
   font-family: poppins, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 10vh;
+  font-size: 9vh;
   line-height: 15vh;
   max-width: auto;
   padding-top: 20vh;
-  padding-left: 3vw;
+  padding-left: 4vw;
+}
+
+.projects {
+  background-color: #fffff0;
+  height: 100%;
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 50px 0 50px;
+}
+
+.prs {
+background-color: white;
 }
