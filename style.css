@@ -34,7 +34,14 @@ nav .topNav {
   background-color: #eddcc3;
   display: flex;
   height: auto;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.realize-ideas {
+  width: 30vw;
+  height: 30vw;
+  margin: 0 15vh 80px;
 }
 
 .tagline {
@@ -43,7 +50,7 @@ nav .topNav {
   font-style: normal;
   font-size: 5vw;
   line-height: 15vh;
-  padding: 15vh 0 80px 4vw;
+  margin: 15vh 0 80px 4vw;
 }
 
 .projects-container {
