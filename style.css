@@ -12,14 +12,14 @@ body {
   flex-direction: column;
 }
 nav {
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: center;
 }
 
 nav .topNav {
   display: flex;
-  padding-top: 10px;
+  padding: 10px 0 10px 0;
   gap: 60px;
 }
 
@@ -30,27 +30,25 @@ nav .topNav {
   text-decoration: none;
 }
 
-.main {
+.hero-container {
+  background-color: #eddcc3;
   display: flex;
-  height: 700px;
-  flex-direction: row;
-  justify-content: space-between;
+  height: auto;
+  flex-direction: column;
 }
 
 .tagline {
   font-family: poppins, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 5.5vw;
+  font-size: 5vw;
   line-height: 15vh;
-  padding-top: 20vh;
-  padding-left: 4vw;
+  padding: 15vh 0 80px 4vw;
 }
 
 .projects-container {
   background-color: #fffff0;
   height: 100%;
-  margin-top: 250px;
   display: flex;
   flex-direction: column;
   text-align: center;
